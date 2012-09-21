@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.test_files   = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_path = 'lib'
   s.homepage     = 'http://github.com/fiksu/bulk_data_methods'
-  s.add_dependency "pg", '0.14.1'
+  s.add_dependency "pg"
   s.add_dependency "rails", '>= 3.0.0'
-  s.add_dependency 'rspec-rails', '2.11.0'
+  s.add_dependency 'rspec-rails'
 end
