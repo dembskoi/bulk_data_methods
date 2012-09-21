@@ -1,10 +1,10 @@
 PATH
   remote: .
   specs:
-    bulk_data_methods (0.0.1)
-      pg
+    bulk_data_methods (1.0.0)
+      pg (= 0.14.1)
       rails (>= 3.0.0)
-      rspec-rails
+      rspec-rails (= 2.11.0)
 
 GEM
   remote: https://rubygems.org/
